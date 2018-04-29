@@ -49,10 +49,12 @@
 * Challenages
     * [COCO2018](http://cocodataset.org/#detection-2018) **Detection task with object segmentation** `Ongoing`
         * Use the 2017 datasets for detection and keypoint
-            *  Train images [118K/18GB](http://images.cocodataset.org/zips/train2017.zip)
-            *  Validate images [5K/1GB](http://images.cocodataset.org/zips/val2017.zip)
-            *  Test images [41K/6GB](http://images.cocodataset.org/zips/test2017.zip)
-            *  Unlabeled images [123K/19GB](http://images.cocodataset.org/zips/unlabeled2017.zip)
+            *  Download with `gsutil -m rsync gs://images.cocodataset.org/val2017 val2017`, and replace val2017 with train2017, val2017, test2017, unlabeled2017
+            *  Train [Images](http://images.cocodataset.org/zips/train2017.zip) [Train/Val Annotations](http://images.cocodataset.org/annotations/annotations_trainval2017.zip) **118K/18GB**
+            *  Validate images [Images](http://images.cocodataset.org/zips/val2017.zip) [Staff Train/Val Annotations](http://images.cocodataset.org/annotations/stuff_annotations_trainval2017.zip) **5K/1GB**
+            *  Test [Images](http://images.cocodataset.org/zips/test2017.zip) [Info](http://images.cocodataset.org/annotations/image_info_test2017.zip) **41K/6GB**
+            *  Unlabeled [Images](http://images.cocodataset.org/zips/unlabeled2017.zip) [Info](http://images.cocodataset.org/annotations/image_info_unlabeled2017.zip) **123K/19GB**
+
         * [Cocoapi](https://github.com/cocodataset/cocoapi) for Lua, MATLAB, Python
 
 
