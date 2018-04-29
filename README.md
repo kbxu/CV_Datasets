@@ -48,9 +48,13 @@
 
 * Challenages
     * [COCO2018](http://cocodataset.org/#detection-2018) **Detection task with object segmentation** `Ongoing`
-        * Over 200,000 images and 80 object categories.
-        * All object instances are annotated with a detailed segmentation mask.
-        * Over 500,000 object instances segmented.
+        * Use the 2017 datasets for detection and keypoint
+            *  Train images [118K/18GB](http://images.cocodataset.org/zips/train2017.zip)
+            *  Validate images [5K/1GB](http://images.cocodataset.org/zips/val2017.zip)
+            *  Test images [41K/6GB](http://images.cocodataset.org/zips/test2017.zip)
+            *  Unlabeled images [123K/19GB](http://images.cocodataset.org/zips/unlabeled2017.zip)
+        * [Cocoapi](https://github.com/cocodataset/cocoapi) for Lua, MATLAB, Python
+
 
 ## WebVision (https://www.vision.ee.ethz.ch/webvision/index.html)
 
